@@ -1,0 +1,7 @@
+*.lnk
+*.ini
+*.png
+*.jpg
+__pycache__/
+.DS_Store
+.env
