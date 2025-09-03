@@ -13,7 +13,6 @@ Features: 30 numeric features describing cell nuclei (e.g., radius, texture, smo
 Target:
 
 M = Malignant
-
 B = Benign
 
 Steps Involved
@@ -24,41 +23,34 @@ Used pandas, numpy, matplotlib, seaborn, sklearn.
 
 Data Cleaning
 -------------
-Checked for missing values.
-
-Dropped irrelevant columns (like id).
+- Checked for missing values.
+- Dropped irrelevant columns (like id).
 
 Exploratory Data Analysis (EDA)
 -----------------------------------
-Visualized distribution of features.
-
-Correlation heatmap to identify important features.
+- Visualized distribution of features.
+- Correlation heatmap to identify important features.
 
 Data Preprocessing
 ------------------
-Converted categorical target into numeric labels (0/1).
-
-Scaled features using StandardScaler.
+- Converted categorical target into numeric labels (0/1).
+- Scaled features using StandardScaler.
 
 Model Building
 ---------------
-Logistic Regression
-
-Random Forest Classifier
+- Logistic Regression
+- Random Forest Classifier
 
 Evaluation
 -----------
-Accuracy, Precision, Recall, F1-score.
-
-Confusion Matrix for better understanding.
+- Accuracy, Precision, Recall, F1-score.
+- Confusion Matrix for better understanding.
 
 Results
 --------
-Logistic Regression Accuracy: ~96%
-
-Random Forest Accuracy: ~98%
-
-Random Forest performed slightly better due to handling feature importance and non-linear relationships.
+- Logistic Regression Accuracy: ~96%
+- Random Forest Accuracy: ~98%
+- Random Forest performed slightly better due to handling feature importance and non-linear relationships.
 
 How to Run
 -----------
@@ -78,12 +70,10 @@ jupyter notebook Breast_Cancer_Detection.ipynb
 
 Key Learnings
 --------------
-Importance of EDA in understanding data.
+- Importance of EDA in understanding data.
+- Feature scaling improves model performance.
+- Ensemble methods (Random Forest) outperform simpler models in this dataset.
 
-Feature scaling improves model performance.
-
-Ensemble methods (Random Forest) outperform simpler models in this dataset.
-
-Author
+## Author
 Usha M
 LinkedIn
