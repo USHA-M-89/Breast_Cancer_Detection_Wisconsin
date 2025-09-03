@@ -74,6 +74,6 @@ Key Learnings
 - Feature scaling improves model performance.
 - Ensemble methods (Random Forest) outperform simpler models in this dataset.
 
-## Author
 Usha M
+Aspiring Data Scientist | Open to Work
 LinkedIn
